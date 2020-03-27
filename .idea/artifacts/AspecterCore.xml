@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AspecterCore">
+    <output-path>$PROJECT_DIR$/out/artifacts/AspecterCore</output-path>
+    <root id="archive" name="AspecterCore.jar">
+      <element id="module-output" name="AspecterCore" />
+      <element id="library" level="project" name="Maven: co.aikar:acf-paper:0.5.0-SNAPSHOT" />
+      <element id="library" level="project" name="Maven: co.aikar:acf-core:0.5.0-SNAPSHOT" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="library" level="project" name="Maven: co.aikar:locales:1.0-SNAPSHOT" />
+      <element id="library" level="project" name="Maven: co.aikar:minecraft-timings:1.0.4" />
+      <element id="library" level="project" name="Maven: co.aikar:Table:1.0.0-SNAPSHOT" />
+      <element id="library" level="project" name="Maven: net.jodah:expiringmap:0.5.8" />
+      <element id="library" level="project" name="Maven: org.jetbrains:annotations:13.0" />
+      <element id="library" level="project" name="Maven: co.aikar:DelegatingMap:1.0.0-SNAPSHOT" />
+    </root>
+  </artifact>
+</component>
