@@ -1,10 +1,11 @@
-package com.earth2me.essentials.storage;
+package net.aspecter.core.oldstorae;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.logging.Level;
-import net.ess3.api.IEssentials;
+
+import net.aspecter.core.AspecterCore;
 import org.bukkit.Bukkit;
 
 
@@ -12,10 +13,10 @@ public abstract class AbstractDelayedYamlFileWriter implements Runnable
 {
 	private final transient File file;
 
-	public AbstractDelayedYamlFileWriter(IEssentials ess, File file)
+	public AbstractDelayedYamlFileWriter(AspecterCore ac, File file)
 	{
 		this.file = file;
-		ess.runTaskAsynchronously(this);
+		ac.runTaskAsynchronously(this);
 	}
 
 	public abstract StorageObject getObject();

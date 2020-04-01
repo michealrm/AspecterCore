@@ -1,4 +1,4 @@
-package com.earth2me.essentials.storage;
+package net.aspecter.core.oldstorae;
 
 import java.io.Reader;
 import java.lang.reflect.Field;

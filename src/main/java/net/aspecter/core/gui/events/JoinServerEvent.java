@@ -1,17 +1,19 @@
-package net.aspecter.core.gui.events.data;
+package net.aspecter.core.gui.events;
 
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
-import net.aspecter.core.gui.events.EventData;
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-public class JoinOtherServerEventData extends EventData {
+public class JoinServerEvent extends AbstractEvent {
 
+	private Plugin plugin;
 	private String serverName;
 
-	public JoinOtherServerEventData(Plugin plugin, String event, String serverName) {
-		super(event, (eventName, player) -> joinBungee(plugin, player.getName(), serverName));
+	public JoinServerEvent(String event, Plugin plugin, String serverName) {
+		super(event);
+		this.plugin = plugin;
 		this.serverName = serverName;
 	}
 
@@ -22,12 +24,8 @@ public class JoinOtherServerEventData extends EventData {
 		Bukkit.getPlayerExact(playerName).sendPluginMessage(plugin, "BungeeCord", out.toByteArray());
 	}
 
-	public String getServerName() {
-		return serverName;
+	@Override
+	public void onEvent(String event, Player player) {
+		joinBungee(plugin, player.getName(), serverName);
 	}
-
-	public void setServerName(String serverName) {
-		this.serverName = serverName;
-	}
-
 }

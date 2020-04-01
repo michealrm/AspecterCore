@@ -1,4 +1,4 @@
-package com.earth2me.essentials.storage;
+package net.aspecter.core.oldstorae;
 
 
 public interface IStorageObjectHolder<T extends StorageObject>

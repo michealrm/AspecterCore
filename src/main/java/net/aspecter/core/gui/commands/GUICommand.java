@@ -1,9 +1,9 @@
 package net.aspecter.core.gui.commands;
 
-import net.aspecter.core.gui.events.EventData;
+import net.aspecter.core.gui.events.data.EventData;
 import net.aspecter.core.gui.handlers.EasyGUIHandler;
 import net.aspecter.core.gui.listeners.InventoryEditListener;
-import net.aspecter.core.gui.util.ItemInvokeData;
+import net.aspecter.core.gui.util.ItemInvoker;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -145,7 +145,7 @@ public class GUICommand implements CommandExecutor {
 							}
 							if(strings.length > 2) {
 								String event = strings[2];
-								handler.registerAndStoreInvokeData(new ItemInvokeData(event, player.getItemInHand()));
+								handler.registerAndStoreInvokeData(new ItemInvoker(event, player.getItemInHand()));
 								player.sendMessage(ChatColor.GREEN + "This item will now invoke " + ChatColor.DARK_GREEN + event);
 								return true;
 							} else {

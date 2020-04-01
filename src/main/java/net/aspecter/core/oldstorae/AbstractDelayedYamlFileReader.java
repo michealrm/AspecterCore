@@ -1,11 +1,12 @@
-package com.earth2me.essentials.storage;
+package net.aspecter.core.oldstorae;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.logging.Level;
-import net.ess3.api.IEssentials;
+
+import net.aspecter.core.AspecterCore;
 import org.bukkit.Bukkit;
 
 
@@ -13,14 +14,14 @@ public abstract class AbstractDelayedYamlFileReader<T extends StorageObject> imp
 {
 	private final transient File file;
 	private final transient Class<T> clazz;
-	protected final transient IEssentials plugin;
+	protected final transient AspecterCore plugin;
 
-	public AbstractDelayedYamlFileReader(final IEssentials ess, final File file, final Class<T> clazz)
+	public AbstractDelayedYamlFileReader(final AspecterCore ac, final File file, final Class<T> clazz)
 	{
 		this.file = file;
 		this.clazz = clazz;
-		this.plugin = ess;
-		ess.runTaskAsynchronously(this);
+		this.plugin = ac;
+		ac.runTaskAsynchronously(this);
 	}
 
 	public abstract void onStart();
@@ -53,10 +54,7 @@ public abstract class AbstractDelayedYamlFileReader<T extends StorageObject> imp
 		catch (FileNotFoundException ex)
 		{
 			onException();
-			if (plugin.getSettings() == null || plugin.getSettings().isDebug())
-			{
-				Bukkit.getLogger().log(Level.INFO, "File not found: " + file.toString());
-			}
+			Bukkit.getLogger().log(Level.INFO, "File not found: " + file.toString());
 		}
 		catch (ObjectLoadException ex)
 		{

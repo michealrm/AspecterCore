@@ -1,6 +1,6 @@
 package net.aspecter.core.gui.listeners;
 
-import net.aspecter.core.gui.util.ItemInvokeData;
+import net.aspecter.core.gui.util.ItemInvoker;
 import net.aspecter.core.gui.handlers.EasyGUIHandler;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -17,11 +17,11 @@ public class InventoryEventListener implements Listener {
 
 	private EasyGUIHandler handler;
 	private Plugin plugin;
-	private List<ItemInvokeData> invokeList;
+	private List<ItemInvoker> invokeList;
 	private Player player;
 	private Inventory inventory;
 
-	public InventoryEventListener(EasyGUIHandler handler, Plugin plugin, List<ItemInvokeData> invokeList, Player player, Inventory inventory) {
+	public InventoryEventListener(EasyGUIHandler handler, Plugin plugin, List<ItemInvoker> invokeList, Player player, Inventory inventory) {
 		this.handler = handler;
 		this.plugin = plugin;
 		this.invokeList = invokeList;
@@ -37,10 +37,10 @@ public class InventoryEventListener implements Listener {
 				return;
 			}
 			ice.setCancelled(true);
-			for(ItemInvokeData data : invokeList) {
+			for(ItemInvoker data : invokeList) {
 				if (data.equalsItem(ice.getCurrentItem())) {
 					ice.getWhoClicked().closeInventory();
-					handler.invokeEvent(data.getInvokes(), plugin.getServer().getPlayer(ice.getWhoClicked().getUniqueId()));
+					handler.invokeEvent(data.getEvent(), plugin.getServer().getPlayer(ice.getWhoClicked().getUniqueId()));
 				}
 			}
 		}

@@ -1,4 +1,4 @@
-package com.earth2me.essentials.storage;
+package net.aspecter.core.oldstorae;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ListType
+public @interface MapValueType
 {
 	Class value() default String.class;
 }
