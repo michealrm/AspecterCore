@@ -9,8 +9,6 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.inventory.Inventory;
 
-import java.net.http.WebSocket;
-
 /**
  * TODO: Will need to call the GUI handler to get the correct inventory, for now I'll just pass in a inventory object
  */
@@ -18,11 +16,6 @@ public class InventoryEvent extends AbstractEvent implements Listener {
 
 	private final Player player;
 	private Inventory inventory;
-
-	class InventoryEditData {
-		Player player;
-
-	}
 
 	public InventoryEvent(String event, Player player, Inventory inventory) {
 		super(event);

@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8f4077-6053-4077-a032-9ac29af4672a" name="Default Changelist" comment="" />
+    <list default="true" id="8f8f4077-6053-4077-a032-9ac29af4672a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/SummonCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/events/InventoryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/events/InventoryEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/handlers/EasyGUIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/handlers/EasyGUIHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/storage/IStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/storage/IStorage.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +86,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

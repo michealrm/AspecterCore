@@ -1,7 +1,5 @@
 package net.aspecter.core.gui.handlers;
 
-import net.aspecter.core.gui.dao.Storage;
-import net.aspecter.core.gui.events.data.EventData;
 import net.aspecter.core.gui.events.JoinServerEvent;
 import net.aspecter.core.gui.events.MessageEvent;
 import net.aspecter.core.gui.listeners.InventoryEventListener;
