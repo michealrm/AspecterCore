@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6861db3-0283-4b12-881e-810ca7de851d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/coords/CoordsDeathListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/coords/CoordsDeathListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/PetsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/pets/PetsCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1089" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1586851369226">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1089" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1586851369226" />
     <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586822992314">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
