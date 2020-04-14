@@ -1,2 +1,3 @@
-net\aspecter\commands\CoordsCommand.class
-net\aspecter\AspecterCore.class
+net/aspecter/core/AspecterCore.class
+net/aspecter/core/commands/PetsCommand.class
+net/aspecter/core/commands/CoordsCommand.class

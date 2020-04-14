@@ -6,17 +6,22 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.scheduler.BukkitTask;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AspecterCore extends JavaPlugin {
+
+    public static List<Runnable> shutdownHooks = new ArrayList<>();
 
     @Override
     public void onEnable() {
         PaperCommandManager manager = new PaperCommandManager(this);
-        manager.registerCommand(new CoordsCommand());
+        manager.registerCommand(new CoordsCommand(manager));
     }
 
     @Override
     public void onDisable() {
-
+        shutdownHooks.stream().forEach(r -> r.run());
     }
 
     public BukkitScheduler getScheduler()

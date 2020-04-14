@@ -1,20 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="AspecterCore" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8f4077-6053-4077-a032-9ac29af4672a" name="Default Changelist" comment="">
+    <list default="true" id="a6861db3-0283-4b12-881e-810ca7de851d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AspecterCore.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_DelegatingMap_1_0_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_DelegatingMap_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_Table_1_0_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_Table_1_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_bukkit_0_5_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_bukkit_0_5_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_core_0_5_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_core_0_5_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_paper_0_5_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_paper_0_5_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_locales_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_locales_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_minecraft_timings_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_minecraft_timings_1_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_expiringmap_0_5_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_expiringmap_0_5_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AspecterCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AspecterCore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/SummonCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/events/InventoryEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/events/InventoryEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/handlers/EasyGUIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/handlers/EasyGUIHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/storage/IStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/storage/IStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/IconMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/AbstractDelayedYamlFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/AbstractDelayedYamlFileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/BukkitConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/DelayedYamlFileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/EnchantmentLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/IStorageObjectHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/IStorageReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/IStorageWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/ListType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/MapKeyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/MapValueType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/ObjectLoadException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/StorageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/YamlStorageReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/YamlStorageWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AspecterCore-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AspecterCore-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/aspecter/AspecterCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/net/aspecter/commands/CoordsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-AspecterCore-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-AspecterCore-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +66,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,60 +79,43 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1ZaeWVnb2DH5fDGDaevWeoYgdBz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1aVKlSA1tNAxqfauKSM6FsUtFzk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/aspecter/core/storage" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EasyGUI" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="net.aspecter.core.storage" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Micheal\IdeaProjects\AspecterCore\src\main\java\net\aspecter\core\storage" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8f8f4077-6053-4077-a032-9ac29af4672a" name="Default Changelist" comment="" />
-      <created>1585081664501</created>
+      <changelist id="a6861db3-0283-4b12-881e-810ca7de851d" name="Default Changelist" comment="" />
+      <created>1586815471824</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585081664501</updated>
+      <updated>1586815471824</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="WindowStateProjectService">
+    <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586822992314">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1586822992314" />
+    <state x="641" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586815479285">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="641" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1586815479285" />
+    <state x="773" y="487" key="extract.method.dialog" timestamp="1586820292039">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="773" y="487" key="extract.method.dialog/0.0.1920.1044@0.0.1920.1044" timestamp="1586820292039" />
   </component>
 </project>
