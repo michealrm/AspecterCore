@@ -1,7 +1,7 @@
 package net.aspecter.core;
 
 import co.aikar.commands.PaperCommandManager;
-import net.aspecter.core.commands.CoordsCommand;
+import net.aspecter.core.coords.CoordsCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.scheduler.BukkitTask;

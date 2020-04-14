@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6861db3-0283-4b12-881e-810ca7de851d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/PetsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/coords/CoordsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/AspecterCore.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_DelegatingMap_1_0_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_DelegatingMap_1_0_0_SNAPSHOT.xml" afterDir="false" />
@@ -27,7 +29,7 @@
       <change beforePath="$PROJECT_DIR$/AspecterCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AspecterCore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/IconMenu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/AbstractDelayedYamlFileReader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/AbstractDelayedYamlFileWriter.java" beforeDir="false" />
@@ -90,6 +92,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,6 +115,18 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="582" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1586822992314" />
+    <state x="743" y="266" key="FileChooserDialogImpl" timestamp="1586841733741">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="743" y="266" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1586841733741" />
+    <state x="671" y="222" width="577" height="559" key="RefactorJ.ExtractClass" timestamp="1586841394256">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="671" y="222" width="577" height="559" key="RefactorJ.ExtractClass/0.0.1920.1044@0.0.1920.1044" timestamp="1586841394256" />
+    <state x="457" y="158" width="1032" height="849" key="SettingsEditor" timestamp="1586841854222">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="457" y="158" width="1032" height="849" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1586841854222" />
     <state x="641" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1586815479285">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -117,5 +135,13 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="773" y="487" key="extract.method.dialog/0.0.1920.1044@0.0.1920.1044" timestamp="1586820292039" />
+    <state x="637" y="117" width="645" height="816" key="find.popup" timestamp="1586841273308">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="637" y="117" width="645" height="816" key="find.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1586841273308" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1586841887712">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1586841887712" />
   </component>
 </project>
