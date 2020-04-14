@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6861db3-0283-4b12-881e-810ca7de851d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AspecterCore-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AspecterCore-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-AspecterCore-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-AspecterCore-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/coords/CoordsDeathListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/coords/CoordsDeathListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

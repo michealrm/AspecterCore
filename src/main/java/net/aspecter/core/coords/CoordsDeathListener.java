@@ -13,4 +13,5 @@ public class CoordsDeathListener implements Listener {
         CoordsStorage.saveLocationToFile(player, "death");
         player.sendMessage(String.format("You died at %s", CoordsHelper.formatCurrentLocation(player) ));
     }
+
 }
