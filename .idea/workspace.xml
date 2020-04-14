@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6861db3-0283-4b12-881e-810ca7de851d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/PetsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/coords/CoordsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AspecterCore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_DelegatingMap_1_0_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_DelegatingMap_1_0_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_Table_1_0_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_Table_1_0_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_bukkit_0_5_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_bukkit_0_5_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_core_0_5_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_core_0_5_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_paper_0_5_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_acf_paper_0_5_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_locales_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_locales_1_0_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_minecraft_timings_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_aikar_minecraft_timings_1_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_expiringmap_0_5_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_expiringmap_0_5_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_15_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_15_2_R0_1_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AspecterCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AspecterCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/aspecter/core/AspecterCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/commands/CoordsCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/gui/IconMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/AbstractDelayedYamlFileReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/AbstractDelayedYamlFileWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/BukkitConstructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/DelayedYamlFileWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/EnchantmentLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/IStorageObjectHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/IStorageReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/IStorageWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/ListType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/MapKeyType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/MapValueType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/ObjectLoadException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/StorageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/YamlStorageReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/aspecter/core/oldstorae/YamlStorageWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AspecterCore-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AspecterCore-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/aspecter/AspecterCore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/aspecter/commands/CoordsCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-AspecterCore-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-AspecterCore-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

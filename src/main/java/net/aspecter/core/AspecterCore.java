@@ -2,6 +2,7 @@ package net.aspecter.core;
 
 import co.aikar.commands.PaperCommandManager;
 import net.aspecter.core.coords.CoordsCommand;
+import net.aspecter.core.coords.CoordsDeathListener;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.scheduler.BukkitTask;
@@ -16,7 +17,10 @@ public class AspecterCore extends JavaPlugin {
     @Override
     public void onEnable() {
         PaperCommandManager manager = new PaperCommandManager(this);
+
+        // Coords
         manager.registerCommand(new CoordsCommand(manager));
+        getServer().getPluginManager().registerEvents(new CoordsDeathListener(), this);
     }
 
     @Override

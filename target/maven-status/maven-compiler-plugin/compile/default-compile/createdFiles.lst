@@ -1,3 +1,6 @@
+net/aspecter/core/coords/CoordsCommand.class
+net/aspecter/core/coords/CoordsStorage.class
+net/aspecter/core/coords/CoordsDeathListener.class
 net/aspecter/core/AspecterCore.class
 net/aspecter/core/commands/PetsCommand.class
-net/aspecter/core/commands/CoordsCommand.class
+net/aspecter/core/coords/CoordsHelper.class
